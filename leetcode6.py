@@ -7,7 +7,6 @@ class Solution:
             indexOfNum1InNum2 = nums2.index(nums1[i])
             if len(range(indexOfNum1InNum2, len(nums2))) == 1:
                 result.append(-1)
-
             else:
                 for j in range(indexOfNum1InNum2, len(nums2)):
                     if(nums2[j] != nums2[indexOfNum1InNum2]):
