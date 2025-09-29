@@ -1,4 +1,3 @@
-a = [0]
+a = [2, 8, 4, 8, 9]
 
-for i in range(2,0):
-    print("a")
+print(a.index(8, 2))
