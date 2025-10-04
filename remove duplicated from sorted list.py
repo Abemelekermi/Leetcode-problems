@@ -11,7 +11,7 @@ class Solution(object):
                     nums.remove(tempNum[i+1])
             else:
                 return print(nums)
-                
+
 nums =[1,1,2]
 
 removeDuplicated = Solution()

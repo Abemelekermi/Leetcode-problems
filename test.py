@@ -1,3 +1,4 @@
 a = [2, 8, 4, 8, 9]
 
-print(a.index(8, 2))
+for i in range(len(a)):
+    print(i)
