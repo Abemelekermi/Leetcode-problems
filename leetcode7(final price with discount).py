@@ -14,7 +14,6 @@ class Solution:
 
 prices = [8,7,4,2,8,1,7,7,10,1]
 
-
 # answer =  [4,2,4,2,3]
 
 soln = Solution()

@@ -1,4 +1,3 @@
-a = [2, 8, 4, 8, 9]
+word1 = "abc"
 
-for i in range(len(a)):
-    print(i)
+print(word1[1:])

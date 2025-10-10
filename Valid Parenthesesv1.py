@@ -3,11 +3,11 @@ class Solution(object):
     def isValid(self, s):
         dic = {'(':')', '{':'}','[':']'}
         trueNum = []
-        
+
         for i, char in enumerate(s):
             for ii, charr in enumerate(s):
                 print(f'i:{i}')
-                print(f'ii:{ii}') 
+                print(f'ii:{ii}')
                 print('')
                 if len(s)>1:
                     if s[i] in dic and s[ii] in dic:
@@ -87,8 +87,8 @@ class Solution(object):
             else:
                 if i == len(trueNum):
                     print(i)
-                    return True 
-              
-            
+                    return True
+
+
 x = Solution()
 print(x.isValid("(){}{}"))
