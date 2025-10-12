@@ -11,8 +11,8 @@ class Solution:
         return answer
 
 
-word1 = "abcd"
-word2 = "pq"
+word1 = "abc"
+word2 = "pqr"
 
 # answer = a p b q c r
 
