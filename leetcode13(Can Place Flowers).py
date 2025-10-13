@@ -1,9 +1,7 @@
 class Solution:
     def canPlaceFlowers(self, flowerbed: list[int], n: int) -> bool:
-        if len(flowerbed) > 1:
-            k = 1
-        else:
-            k=0
+        k = 1 if len(flowerbed) > 1 else 0
+
         answer = flowerbed.copy()
         for i in range(len(flowerbed)):
             if n == 0:

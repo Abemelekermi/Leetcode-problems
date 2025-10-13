@@ -1,4 +1,3 @@
-a = [1, 2, 3]
+s = "IceCreAmI"
 
-x = str(2-3)
-print(x[0])
+print(list(s))

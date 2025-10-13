@@ -14,10 +14,10 @@ class Solution:
             return ""
 
 
+str1 = "ABCABC"
+str2 = "ABC"
 
-
-str1 = "A"
-str2 = "A"
+# Output ABC
 
 soln = Solution()
 answer = soln.gcdOfStrings(str1, str2)
