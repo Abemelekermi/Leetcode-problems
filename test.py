@@ -1,3 +1,4 @@
-s = "IceCreAmI"
+s = [1, 2 ,8 , 8]
 
-print(list(s))
+s.pop(0)
+print(s)

@@ -19,7 +19,7 @@ class Solution:
                 k+=1
             if len(flowerbed) - 1 == i and n != 0:
                 return False
-        print(answer)
+
         j = -1
         for i in range(len(answer)):
             if j != -1:
@@ -28,7 +28,7 @@ class Solution:
             j+=1
         return True
 
-flowerbed = [0,0,1,0,0]
+flowerbed = [0,0,1,1,1]
 n = 1
 soln = Solution()
 answer = soln.canPlaceFlowers(flowerbed, n)
