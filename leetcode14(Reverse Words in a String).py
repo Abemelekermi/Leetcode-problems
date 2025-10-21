@@ -5,7 +5,6 @@ class Solution:
         for i in range(len(sL)):
             if sL[i] != "":
                 sL1.append(sL[i])
-        print(sL1)
         k = len(sL1) - 1
         ans = ["" for i in range(len(sL1))]
 
@@ -18,7 +17,7 @@ class Solution:
 
 s = "  hello world  "
 
-# Output =  "blue is sky the"
+# Output =  "world hello"
 
 soln = Solution()
 answer = soln.reverseWords(s)

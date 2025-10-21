@@ -1,9 +1,9 @@
 class Solution:
     def reverseVowels(self, s: str) -> str:
+        s = list(s)
         vowels = ['a', 'e', 'i', 'o', 'u']
         left = 0
         right = len(s) - 1
-        s = list(s)
         while right > left:
             if s[left].lower() in vowels and s[right].lower() in vowels:
                 s[left], s[right] = s[right], s[left]
@@ -15,7 +15,7 @@ class Solution:
                 right -=1
         return "".join(s)
 
-s = "leetcode"
+s = "IceCreAm"
 
 # answer "AceCreIm"
 
